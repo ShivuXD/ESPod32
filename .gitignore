@@ -1,0 +1,15 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Arduino
+*.bin
+*.elf
+
+# VS Code
+.vscode/
+
+# secrets
+config.h
+.env
