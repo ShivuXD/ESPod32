@@ -1,44 +1,32 @@
 # ESPod32 - ESP32 Wireless Media Controller
 
 ESPod32 is a custom ESP32-based wireless media controller with a live OLED display.  
-It acts as a small external music controller that can control media playback on a computer while showing the currently playing track, artist, and progress in real time.
+An external music controller that can control media playback on a computer while showing the currently playing track, artist, and progress in real time.
 
 The project combines Bluetooth HID controls, WiFi communication, an OLED interface, and a Windows companion application.
-
-## Demo
-
-(Add images here)
-
-```
-images/prototype.jpg
-images/oled_display.jpg
-```
 
 ---
 
 ## Features
 
-- Wireless media control using Bluetooth HID
 - Play / Pause control
 - Next and previous track buttons
-- Volume control
+- Volume control (on hold)
 - Forward and backward controls
-- Live song title display
-- Artist information display
-- Playback progress bar
-- Real-time updates over WiFi
+- Song title display
+- Artist Name display
+- Playback Progress Bar
 - Works with media sources supported by Windows Media Session:
-  - Spotify
   - Apple Music
+  - Spotify
   - YouTube
   - Browser players
   - Other supported media applications
-
 ---
 
-## How It Works
+## Working
 
-The project uses two communication channels.
+ESPod32 uses 2 communication channels.
 
 ### Media Control
 
