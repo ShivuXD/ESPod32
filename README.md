@@ -140,7 +140,7 @@ Board:
 ESP32 Dev Module
 ```
 
-Because Bluetooth + WiFi increases firmware size:
+And:
 
 ```
 Tools
@@ -154,9 +154,9 @@ Tools
 
 ## WiFi Configuration
 
-Inside the ESP32 firmware:
+Inside ESPod_V2.ino:
 
-Change:
+Edit:
 
 ```cpp
 const char* ssid = "YOUR_WIFI";
@@ -164,23 +164,6 @@ const char* password = "YOUR_PASSWORD";
 ```
 
 to your WiFi details.
-
-Example:
-
-```cpp
-const char* ssid = "HomeWiFi";
-const char* password = "password123";
-```
-
-Upload the firmware.
-
-After booting, the OLED/Serial Monitor will show the ESP32 IP address.
-
-Example:
-
-```
-192.168.1.50
-```
 
 ---
 
