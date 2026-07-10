@@ -3,7 +3,7 @@
 ESPod32 is a custom ESP32-based wireless media controller with a live OLED display.  
 An external music controller that can control media playback on a computer while showing the currently playing track, artist, and progress in real time.
 
-The project combines Bluetooth HID controls, WiFi communication, an OLED interface, and a Windows companion application.
+The project combines Bluetooth HID controls, Wi-Fi communication, an OLED interface, and a Windows companion application.
 
 ---
 
@@ -45,9 +45,9 @@ Physical Buttons
  Windows Media Controls
 ```
 
-### Live Display Updates
+### Live Display 
 
-A Python companion app reads the currently playing media from Windows and sends the information back to ESP32.
+A Python application reads the currently playing media from Windows and sends the information back to ESP32.
 
 ```
 Spotify / Apple Music / YouTube
@@ -59,7 +59,7 @@ Spotify / Apple Music / YouTube
  Python Companion App
               |
               v
-            WiFi
+            Wi-Fi
               |
               v
             ESP32
@@ -70,9 +70,9 @@ Spotify / Apple Music / YouTube
 
 ---
 
-# Hardware Used
+# Hardware 
 
-- ESP32 DevKit
+- ESP32 
 - SSD1306 128x64 OLED Display (I2C)
 - 5 Push Buttons
 - Breadboard
@@ -83,6 +83,7 @@ Spotify / Apple Music / YouTube
 # Circuit Connections
 
 ## OLED Display
+My Configuration -
 
 | OLED Pin | ESP32 Pin |
 |---|---|
