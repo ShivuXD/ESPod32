@@ -197,34 +197,8 @@ pip install winsdk requests
 
 ---
 
-# Final System
-
-```
-          ESPod32
-
-       OLED Display
-            ^
-            |
-           WiFi
-
-Windows Companion App
-
-            ^
-
-Spotify / Apple Music
-
-
-ESP32 Buttons
-
-            |
-
-       Bluetooth HID
-
-            |
-
-       Windows Controls
-```
+## Testing
+Play a song from your media or streaming player and, verify the functioning by using the push buttons and checking the OLED display.
 
 ---
 
-Live media information using WiFi and Windows companion app.
