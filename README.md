@@ -167,29 +167,19 @@ to your WiFi details.
 
 ---
 
-# Companion App Setup
-
-The companion application runs on Windows.
-
-It reads the currently playing media using Windows Media Session APIs.
-
----
-
 ## Create Python Environment
 
-Go into the companion folder:
+Open main.py
 
 ```bash
-cd companion
+cd ESPod32-main
 ```
 
-Create virtual environment:
+Create the virtual environment:
 
 ```bash
 python -m venv .venv
 ```
-
-Activate it:
 
 Windows:
 
@@ -202,48 +192,8 @@ Windows:
 ## Install Dependencies
 
 ```bash
-pip install -r requirements.txt
-```
-
-or manually:
-
-```bash
 pip install winsdk requests
 ```
-
----
-
-# Running
-
-Start your music application:
-
-Examples:
-
-```
-Spotify
-Apple Music
-YouTube
-```
-
-Run:
-
-```bash
-python main.py
-```
-
-The companion app will read:
-
-```
-Song Name
-Artist
-Current Time
-Duration
-Playback Status
-```
-
-and send it to ESP32.
-
-The OLED updates automatically.
 
 ---
 
@@ -276,36 +226,5 @@ ESP32 Buttons
 ```
 
 ---
-
-# Future Improvements
-
-- Custom PCB design
-- 3D printed enclosure
-- Album art support
-- Battery powered version
-- Rotary encoder volume knob
-- Touch controls
-
----
-
-# Version History
-
-## v0.1
-
-Basic ESP32 GPIO button testing.
-
-## v0.2
-
-Bluetooth HID media controls.
-
-## v0.3
-
-Five-button hardware controller.
-
-## v0.4
-
-OLED interface added.
-
-## v1.0
 
 Live media information using WiFi and Windows companion app.
