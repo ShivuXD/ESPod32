@@ -83,7 +83,6 @@ Spotify / Apple Music / YouTube
 # Circuit Connections
 
 ## OLED Display
-My Configuration -
 
 | OLED Pin | ESP32 Pin |
 |---|---|
@@ -102,9 +101,7 @@ All buttons use:
 INPUT_PULLUP
 ```
 
-One side of every button connects to ESP32 GND.
-
-The opposite side connects to its GPIO pin.
+My Configuration -
 
 | Button | Function | ESP32 GPIO |
 |---|---|---|
