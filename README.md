@@ -101,7 +101,7 @@ All buttons use:
 INPUT_PULLUP
 ```
 
-My Configuration -
+My Configuration:
 
 | Button | Function | ESP32 GPIO |
 |---|---|---|
@@ -111,42 +111,13 @@ My Configuration -
 | Right Green | Volume Up / Seek Forward | GPIO17 |
 | Right Red | Next Track | GPIO16 |
 
-Button logic:
-
-```
-Not Pressed = HIGH
-Pressed     = LOW
-```
-
----
-
-# Repository Structure
-
-```
-ESPod32/
-
-├── firmware/
-│   └── ESPod32_v1/
-│       └── ESPod32_v1.ino
-│
-├── companion/
-│   ├── main.py
-│   └── requirements.txt
-│
-├── images/
-│
-├── README.md
-│
-└── .gitignore
-```
-
 ---
 
 # ESP32 Setup
 
 ## Required Arduino Libraries
 
-Install these from Arduino IDE Library Manager:
+Install following libraries from Arduino IDE Library Manager:
 
 ```
 ESP32 BLE Keyboard
